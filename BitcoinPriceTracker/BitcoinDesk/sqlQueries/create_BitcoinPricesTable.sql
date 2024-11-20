@@ -1,0 +1,6 @@
+CREATE TABLE BitcoinPrices (
+    ID INT IDENTITY(1,1) PRIMARY KEY,
+    Timestamp DATETIME DEFAULT GETDATE(),
+    PriceCZK DECIMAL(18, 2),
+    Note NVARCHAR(255) NULL
+);

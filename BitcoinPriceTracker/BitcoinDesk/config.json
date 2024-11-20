@@ -1,0 +1,12 @@
+{
+  "Database": {
+    "ConnectionString": "Data Source=(localdb)\\ProjectModels;Initial Catalog=coinDesk;Integrated Security=True;"
+  },
+  "ApiEndpoints": {
+    "BitcoinPriceUrl": "https://api.coindesk.com/v1/bpi/currentprice/EUR.json",
+    "ExchangeRateUrl": "https://api.cnb.cz/cnbapi/exrates/daily?date={date}&lang=EN"
+  },
+  "Settings": {
+    "UpdateIntervalSeconds": 60
+  }
+}
